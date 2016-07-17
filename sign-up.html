@@ -8,15 +8,17 @@
 <!-- sign-up form-->
 <div class="container">
 	<form>
+  <div id='msg'></div>
           UserName: <input type='text' /> <br>
           Email: <input type="email" name="email" placeholder="you@domain.com"> <br>
-          Password: <input type='password' placeholder="Password" /> <br>
+          Password: <input type='password' placeholder="Password" id="passwordTyped"/> <br>
           Confirm Password<input type="password" id="confirm_password" required> <br>
           Phone number <input type="tel" name="usrtel" placeholder="972.#######"> <br>
           Country: <input type='text' placeholder="US"/> <br>
-          <button type="submit">Login</button>
+          <button type="submit" id="signupClk">SignUp</button>
     </form>
 </div>
-        
+
+<script src="signup.js"></script>  
 </body>
 </html>
